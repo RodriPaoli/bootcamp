@@ -1,6 +1,6 @@
 public class Ejercicio01 {
     public static void main(String[] args) {
-        int mayor = 100; //Ejercicio 1
+        int mayor = 100;
         int menor = 10;
 
         System.out.println("La suma de ambos numeros es: " + (mayor + menor));
