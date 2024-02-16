@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora</title>
+  <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <h1 style="font-family:Verdana, Geneva, Tahoma, sans-serif; size: 15px;"> Calculadora</style>
+  <div class="calculator">
+    <div class="display" id="display">0</div>
+    <table>
+      <tr>
+        <td><button onclick="agregarCaracter('9')">9</td>
+        <td><button onclick="agregarCaracter('8')">8</td>
+        <td><button onclick="agregarCaracter('7')">7</td>
+        <td><button onclick="agregarCaracter('/')">/</td>
+      </tr>
+      <tr>
+        <td><button onclick="agregarCaracter('6')">6</td>
+        <td><button onclick="agregarCaracter('5')">5</td>
+        <td><button onclick="agregarCaracter('4')">4</td>
+        <td><button onclick="agregarCaracter('*')">*</td>
+      </tr>
+      <tr>
+        <td><button onclick="agregarCaracter('3')">3</td>
+        <td><button onclick="agregarCaracter('2')">2</td>
+        <td><button onclick="agregarCaracter('1')">1</td>
+        <td><button onclick="agregarCaracter('-')">-</td>
+      </tr>
+      <tr>
+        <td><button onclick="agregarCaracter('0')">0</td>
+        <td><button onclick="agregarCaracter('.')">,</td>
+        <td><button onclick="borrar()">C</td>
+        <td><button onclick="agregarCaracter('+')">+</td>
+      </tr>
+      <tr>
+        <td colspan="4"><button onclick="calcular()">=</button></td>
+      </tr>
+    </table>
+  </div>
+
+  <script src="Calculadora.js"></script>
+</body>
+</html>

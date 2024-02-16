@@ -1,0 +1,14 @@
+.dado {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.dado img {
+  width: 100%;
+  height: auto;
+}

@@ -1,0 +1,17 @@
+td {
+    width: 20px; /* Ajusta el tamaño según sea necesario */
+    height: 20px;
+  }
+  
+  /* Definir las imágenes para cada caso */
+  .victoria {
+    mask-image: url('victoria.svg');
+  }
+  
+  .derrota {
+    background-image: url('derrota.svg');
+  }
+  
+  .empate {
+    background-image: url('empate.svg');
+  }
