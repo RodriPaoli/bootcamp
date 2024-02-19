@@ -1,0 +1,18 @@
+.resaltado{
+    color: rgb(196, 157, 81);
+    font-family: Helvetica;
+}
+
+.checkbox-container {
+    position: relative;
+    cursor: pointer;
+}
+
+.checkbox-container::before {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 2px solid black;
+
+}
